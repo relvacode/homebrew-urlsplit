@@ -2,16 +2,16 @@
 class Urlsplit < Formula
   desc ""
   homepage ""
-  version "0.1"
+  version "0.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/relvacode/urlsplit/releases/download/0.1/urlsplit_0.1_osx_x86_64.tar.gz"
-    sha256 "10a6d8b4a6c940029951de2e89e77e09c44570772e4cd918fc478e4eeed0a3c9"
+    url "https://github.com/relvacode/urlsplit/releases/download/0.2/urlsplit_0.2_osx_x86_64.tar.gz"
+    sha256 "c557e3b9d98e2d4b3a3ff7bce59a28863de16b9e69016c4b0066a37f55206985"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/relvacode/urlsplit/releases/download/0.1/urlsplit_0.1_linux_x86_64.tar.gz"
-      sha256 "6e991353eec81f0255b2aa86dcfbee92902abfc8e5de25a653f00d3a236bdcf7"
+      url "https://github.com/relvacode/urlsplit/releases/download/0.2/urlsplit_0.2_linux_x86_64.tar.gz"
+      sha256 "67685dfaf14817513efa3919509ea5011308041c00964cb799cbc35a7bfd46fb"
     end
   end
 
